@@ -1,16 +1,13 @@
 # overlay_entry_exmaple
 
-A new Flutter project.
+## OverlayEntry
+- 위젯을 포함할 수 있는 오버레이의 위치  
 
-## Getting Started
+## CompositedTransformTarget
+- CompositedTransformFollower의 대상이 되는 위젯
 
-This project is a starting point for a Flutter application.
+## CompositedTransformFollower
+- CompositedTransformTarget을 따르는 위젯 동일한 좌표공간의 offset을 갖는다.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Reference
+https://velog.io/@cyb9701/Flutter-OverlayEntry%EB%A1%9C-Dropdown-%EC%A7%81%EC%A0%91-%EB%A7%8C%EB%93%A4%EA%B8%B0
